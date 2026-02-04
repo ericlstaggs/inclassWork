@@ -11,6 +11,8 @@ public class PodcastTestHarness {
 		int[] followers = { 38000, 41, 102000, 1400, 8900 };
 		boolean[] freeFlags = { false, true, false, true, false };
 
+		Podcast podcast = new Podcast();
+
 		// TODO: create a Podcast array that will hold five podcasts
 		
 		// TODO: populate the array with objects (create the podcast objects

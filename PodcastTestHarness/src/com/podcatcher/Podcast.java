@@ -31,7 +31,7 @@ public class Podcast {
 	 */
 	@Override
 	public String toString() {
-		return this.title + this.producer + this.followers + this.allContentFree;
+		return this.title + " " + this.producer + " " + this.followers + " " + this.allContentFree;
 	}
 
 	/**
@@ -89,8 +89,4 @@ public class Podcast {
 	public void setAllContentFree(boolean allContentFree) {
 		this.allContentFree = allContentFree;
 	}
-	
-	
-	
-	
 }
